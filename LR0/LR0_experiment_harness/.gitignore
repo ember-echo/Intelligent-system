@@ -1,0 +1,11 @@
+runs/
+mlartifacts/
+mlruns/
+*.db
+*.db-*
+__pycache__/
+.venv/
+.search_state.json
+checks/
+reports/generated/
+environment-freeze.txt

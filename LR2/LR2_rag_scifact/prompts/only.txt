@@ -1,0 +1,1 @@
+Classify the scientific claim using your own knowledge. SUPPORT means evidence supports the claim. CONTRADICT means evidence contradicts the claim. NOINFO means insufficient evidence to decide. Return only a JSON object with label, doc_id null, and sentences []. If unsure, use NOINFO.

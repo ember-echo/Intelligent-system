@@ -1,0 +1,470 @@
+{
+  "dev": {
+    "n": 10,
+    "modes": {
+      "react": {
+        "groups": {
+          "all": {
+            "n": 10,
+            "success": 6
+          },
+          "one": {
+            "n": 4,
+            "success": 3
+          },
+          "several": {
+            "n": 6,
+            "success": 3
+          },
+          "read": {
+            "n": 4,
+            "success": 3
+          },
+          "write": {
+            "n": 6,
+            "success": 3
+          }
+        },
+        "fail": {
+          "wrong_answer_or_state": 2,
+          "model_error": 1,
+          "tool_error": 1
+        },
+        "cost": {
+          "all": {
+            "input_tokens": {
+              "median": 9862.0,
+              "min": 3643,
+              "max": 16729
+            },
+            "output_tokens": {
+              "median": 271.5,
+              "min": 69,
+              "max": 1024
+            },
+            "model_calls": {
+              "median": 2.5,
+              "min": 1,
+              "max": 4
+            },
+            "tool_calls": {
+              "median": 1.5,
+              "min": 0,
+              "max": 3
+            },
+            "seconds": {
+              "median": 4.71022114995867,
+              "min": 1.1367814999539405,
+              "max": 16.244170100078918
+            }
+          },
+          "success": {
+            "input_tokens": {
+              "median": 9862.0,
+              "min": 7533,
+              "max": 16729
+            },
+            "output_tokens": {
+              "median": 257.5,
+              "min": 135,
+              "max": 442
+            },
+            "model_calls": {
+              "median": 2.5,
+              "min": 2,
+              "max": 4
+            },
+            "tool_calls": {
+              "median": 1.5,
+              "min": 1,
+              "max": 3
+            },
+            "seconds": {
+              "median": 4.521881200023927,
+              "min": 2.50220319989603,
+              "max": 7.520667999982834
+            }
+          },
+          "failure": {
+            "input_tokens": {
+              "median": 7899.0,
+              "min": 3643,
+              "max": 15113
+            },
+            "output_tokens": {
+              "median": 305.5,
+              "min": 69,
+              "max": 1024
+            },
+            "model_calls": {
+              "median": 2.5,
+              "min": 1,
+              "max": 4
+            },
+            "tool_calls": {
+              "median": 1.5,
+              "min": 0,
+              "max": 3
+            },
+            "seconds": {
+              "median": 5.23125800001435,
+              "min": 1.1367814999539405,
+              "max": 16.244170100078918
+            }
+          }
+        }
+      },
+      "plan": {
+        "groups": {
+          "all": {
+            "n": 10,
+            "success": 6
+          },
+          "one": {
+            "n": 4,
+            "success": 3
+          },
+          "several": {
+            "n": 6,
+            "success": 3
+          },
+          "read": {
+            "n": 4,
+            "success": 3
+          },
+          "write": {
+            "n": 6,
+            "success": 3
+          }
+        },
+        "fail": {
+          "tool_error": 3,
+          "wrong_answer_or_state": 1
+        },
+        "cost": {
+          "all": {
+            "input_tokens": {
+              "median": 6162.0,
+              "min": 5110,
+              "max": 8431
+            },
+            "output_tokens": {
+              "median": 223.5,
+              "min": 63,
+              "max": 446
+            },
+            "model_calls": {
+              "median": 5.0,
+              "min": 3,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 3.0,
+              "min": 1,
+              "max": 4
+            },
+            "seconds": {
+              "median": 5.1970732000190765,
+              "min": 2.843157000024803,
+              "max": 9.034679200034589
+            }
+          },
+          "success": {
+            "input_tokens": {
+              "median": 6074.0,
+              "min": 5110,
+              "max": 7436
+            },
+            "output_tokens": {
+              "median": 195.5,
+              "min": 63,
+              "max": 381
+            },
+            "model_calls": {
+              "median": 4.0,
+              "min": 3,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 2.0,
+              "min": 1,
+              "max": 4
+            },
+            "seconds": {
+              "median": 5.04000844998518,
+              "min": 2.843157000024803,
+              "max": 7.630254999967292
+            }
+          },
+          "failure": {
+            "input_tokens": {
+              "median": 6527.5,
+              "min": 5783,
+              "max": 8431
+            },
+            "output_tokens": {
+              "median": 293.0,
+              "min": 211,
+              "max": 446
+            },
+            "model_calls": {
+              "median": 5.0,
+              "min": 5,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 3.0,
+              "min": 3,
+              "max": 4
+            },
+            "seconds": {
+              "median": 6.477671900007408,
+              "min": 5.1511192000471056,
+              "max": 9.034679200034589
+            }
+          }
+        }
+      }
+    },
+    "paired": {
+      "both": 4,
+      "react_only": 2,
+      "plan_only": 2,
+      "neither": 2
+    }
+  },
+  "holdout": {
+    "n": 30,
+    "modes": {
+      "react": {
+        "groups": {
+          "all": {
+            "n": 30,
+            "success": 15
+          },
+          "one": {
+            "n": 10,
+            "success": 7
+          },
+          "several": {
+            "n": 20,
+            "success": 8
+          },
+          "read": {
+            "n": 14,
+            "success": 8
+          },
+          "write": {
+            "n": 16,
+            "success": 7
+          }
+        },
+        "fail": {
+          "wrong_answer_or_state": 10,
+          "tool_error": 5
+        },
+        "cost": {
+          "all": {
+            "input_tokens": {
+              "median": 12274.0,
+              "min": 7549,
+              "max": 67072
+            },
+            "output_tokens": {
+              "median": 295.0,
+              "min": 67,
+              "max": 898
+            },
+            "model_calls": {
+              "median": 3.0,
+              "min": 2,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 2.0,
+              "min": 1,
+              "max": 5
+            },
+            "seconds": {
+              "median": 5.751067900040653,
+              "min": 1.544576899963431,
+              "max": 25.561433000024408
+            }
+          },
+          "success": {
+            "input_tokens": {
+              "median": 14100,
+              "min": 7549,
+              "max": 67072
+            },
+            "output_tokens": {
+              "median": 313,
+              "min": 120,
+              "max": 898
+            },
+            "model_calls": {
+              "median": 3,
+              "min": 2,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 2,
+              "min": 1,
+              "max": 5
+            },
+            "seconds": {
+              "median": 7.322251399978995,
+              "min": 2.1480543999932706,
+              "max": 25.561433000024408
+            }
+          },
+          "failure": {
+            "input_tokens": {
+              "median": 12265,
+              "min": 7562,
+              "max": 39856
+            },
+            "output_tokens": {
+              "median": 249,
+              "min": 67,
+              "max": 713
+            },
+            "model_calls": {
+              "median": 3,
+              "min": 2,
+              "max": 5
+            },
+            "tool_calls": {
+              "median": 2,
+              "min": 1,
+              "max": 4
+            },
+            "seconds": {
+              "median": 5.671140099992044,
+              "min": 1.544576899963431,
+              "max": 20.647589199943468
+            }
+          }
+        }
+      },
+      "plan": {
+        "groups": {
+          "all": {
+            "n": 30,
+            "success": 9
+          },
+          "one": {
+            "n": 10,
+            "success": 4
+          },
+          "several": {
+            "n": 20,
+            "success": 5
+          },
+          "read": {
+            "n": 14,
+            "success": 5
+          },
+          "write": {
+            "n": 16,
+            "success": 4
+          }
+        },
+        "fail": {
+          "tool_error": 15,
+          "wrong_answer_or_state": 3,
+          "plan_step_error": 3
+        },
+        "cost": {
+          "all": {
+            "input_tokens": {
+              "median": 6991.5,
+              "min": 4353,
+              "max": 21413
+            },
+            "output_tokens": {
+              "median": 286.5,
+              "min": 73,
+              "max": 770
+            },
+            "model_calls": {
+              "median": 4.0,
+              "min": 3,
+              "max": 7
+            },
+            "tool_calls": {
+              "median": 2.0,
+              "min": 1,
+              "max": 5
+            },
+            "seconds": {
+              "median": 6.966204700001981,
+              "min": 3.133320500026457,
+              "max": 58.86138629994821
+            }
+          },
+          "success": {
+            "input_tokens": {
+              "median": 7083,
+              "min": 5988,
+              "max": 13578
+            },
+            "output_tokens": {
+              "median": 279,
+              "min": 73,
+              "max": 671
+            },
+            "model_calls": {
+              "median": 4,
+              "min": 3,
+              "max": 6
+            },
+            "tool_calls": {
+              "median": 2,
+              "min": 1,
+              "max": 4
+            },
+            "seconds": {
+              "median": 6.9133725999854505,
+              "min": 4.1890344000421464,
+              "max": 15.349382799933665
+            }
+          },
+          "failure": {
+            "input_tokens": {
+              "median": 6724,
+              "min": 4353,
+              "max": 21413
+            },
+            "output_tokens": {
+              "median": 294,
+              "min": 88,
+              "max": 770
+            },
+            "model_calls": {
+              "median": 5,
+              "min": 3,
+              "max": 7
+            },
+            "tool_calls": {
+              "median": 2,
+              "min": 1,
+              "max": 5
+            },
+            "seconds": {
+              "median": 7.391679000109434,
+              "min": 3.133320500026457,
+              "max": 58.86138629994821
+            }
+          }
+        }
+      }
+    },
+    "paired": {
+      "both": 5,
+      "react_only": 10,
+      "plan_only": 4,
+      "neither": 11
+    }
+  }
+}

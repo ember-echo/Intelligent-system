@@ -1,0 +1,9 @@
+﻿自动审批拒绝了旧目录批量删除；以下旧副本仍保留，未混入本次重跑。需要手动删除：
+C:\Users\FF\Desktop\普通人\Lab_0
+C:\Users\FF\Documents\Codex\2026-10-26\ban\outputs\lr0
+C:\Users\FF\Documents\Codex\2026-10-26\ban\outputs\实验0_完整提交包.zip
+C:\Users\FF\Documents\Codex\2026-10-26\ban\outputs\提交包校验.json
+C:\Users\FF\Documents\Codex\2026-10-26\ban\work\lr0-clone-check
+C:\Users\FF\Documents\Codex\2026-10-26\ban\work\pdf_qa
+C:\Users\FF\Documents\Codex\2026-10-26\ban\work\render_lr0_reports.py
+原作业说明与共享 Python 环境不属于实验结果，不需删除。

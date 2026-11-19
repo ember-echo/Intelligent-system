@@ -1,0 +1,15 @@
+experiment: LR0_experiment_harness
+split_seed: 0
+seed: 0
+model:
+  n_layers: 3
+  hidden: 318
+  dropout: 0.3022047077099191
+train:
+  lr: 0.0030037042341145384
+  weight_decay: 1.4076637754695788e-05
+  batch_size: 128
+  epochs: 30
+runtime:
+  device: cpu
+  num_threads: 1

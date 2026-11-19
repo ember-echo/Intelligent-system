@@ -1,0 +1,1 @@
+{"k1":1.2,"b":0.75,"depth":20,"rrf_constant":60,"context_k":3,"pair_limit":512,"threads":8,"seed":42,"temperature":0,"input_budget":2048,"max_tokens":128,"selection_order":["bm25","rrf","ce"],"ce_model":"cross-encoder/ms-marco-MiniLM-L6-v2","ce_revision":"233902d25c440f23af6f7d6e94d2946bac0bee0a"}

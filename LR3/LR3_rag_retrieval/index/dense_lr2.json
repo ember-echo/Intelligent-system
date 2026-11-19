@@ -1,0 +1,14 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "limit": 256,
+  "dimension": 384,
+  "prefixes": null,
+  "pooling": "attention-masked mean pooling, L2 normalization",
+  "truncated": 3681,
+  "total": 5183,
+  "matrix_sha256": "ad789c33ed4a44ebd1031f5b8948bdc20b68e617e82dc00977158d62976ae5eb",
+  "query_matrix_sha256": "a27386329758272162492e7406fe97e44b378c1c4face75e4543c1793acf0cfc",
+  "self_cosine": 0.9999998807907104,
+  "weights_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+}

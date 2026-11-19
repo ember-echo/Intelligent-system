@@ -1,0 +1,8 @@
+{
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "source": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+  "bytes": 772386,
+  "sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+  "preparation": "Strip opening marker and normalize whitespace. Tokenize and cut source prefixes with the server tokenizer. Load requests use shifted source offsets."
+}

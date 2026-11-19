@@ -1,0 +1,4 @@
+* text eol=lf
+config.json text eol=crlf
+data/manifest.json text eol=crlf
+index/dense_lr2.json text eol=crlf

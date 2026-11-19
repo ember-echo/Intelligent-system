@@ -1,0 +1,156 @@
+{
+  "denominators": {
+    "train": 1077,
+    "val": 360,
+    "test": 360,
+    "base_seeds": 5,
+    "final_pairs": 5,
+    "search_trials": 40
+  },
+  "base_val_min": 0.9527777777777777,
+  "base_val_median": 0.9555555555555556,
+  "base_val_max": 0.9611111111111111,
+  "base_val_range": 0.008333333333333415,
+  "base_seed1_to_seed2": {
+    "fixed": 1,
+    "broken": 3,
+    "both_right": 343,
+    "both_wrong": 13
+  },
+  "search_states": {
+    "COMPLETE": 20,
+    "PRUNED": 20
+  },
+  "executed_epochs": 700,
+  "max_epochs": 1200,
+  "epochs_saved": 500,
+  "measured_search_compute_s": 22.514115100260824,
+  "estimated_saved_compute_s": 12.536842498811893,
+  "search_best_val": 0.9805555555555555,
+  "search_best_trial": 27,
+  "best_new_seeds_mean_val": 0.9738888888888889,
+  "best_new_seeds_mean_test": 0.9672222222222222,
+  "delta_val_median": 0.019444444444444486,
+  "delta_val_min": 0.01388888888888884,
+  "delta_val_max": 0.025000000000000022,
+  "delta_test_median": 0.019444444444444486,
+  "delta_test_min": 0.008333333333333415,
+  "delta_test_max": 0.030555555555555558,
+  "fixed_test_total": 51,
+  "broken_test_total": 16,
+  "paired_test_observations": 1800,
+  "robust_by_course_rule": false,
+  "final_pairs": [
+    {
+      "seed": 101,
+      "base_val": 0.9527777777777777,
+      "best_val": 0.9722222222222222,
+      "delta_val": 0.019444444444444486,
+      "base_test": 0.9527777777777777,
+      "best_test": 0.9611111111111111,
+      "delta_test": 0.008333333333333415,
+      "fixed": 8,
+      "broken": 5,
+      "both_right": 338,
+      "both_wrong": 9,
+      "base_run": "20261102T105930_db4e39f8",
+      "best_run": "20261102T105940_ba0936ae"
+    },
+    {
+      "seed": 102,
+      "base_val": 0.9555555555555556,
+      "best_val": 0.9694444444444444,
+      "delta_val": 0.01388888888888884,
+      "base_test": 0.9472222222222222,
+      "best_test": 0.9611111111111111,
+      "delta_test": 0.01388888888888895,
+      "fixed": 11,
+      "broken": 6,
+      "both_right": 335,
+      "both_wrong": 8,
+      "base_run": "20261102T105950_949585fa",
+      "best_run": "20261102T105959_3446dc0e"
+    },
+    {
+      "seed": 103,
+      "base_val": 0.9555555555555556,
+      "best_val": 0.9777777777777777,
+      "delta_val": 0.022222222222222143,
+      "base_test": 0.9388888888888889,
+      "best_test": 0.9694444444444444,
+      "delta_test": 0.030555555555555558,
+      "fixed": 13,
+      "broken": 2,
+      "both_right": 336,
+      "both_wrong": 9,
+      "base_run": "20261102T110009_085e59be",
+      "best_run": "20261102T110018_2092900d"
+    },
+    {
+      "seed": 104,
+      "base_val": 0.9527777777777777,
+      "best_val": 0.9722222222222222,
+      "delta_val": 0.019444444444444486,
+      "base_test": 0.9472222222222222,
+      "best_test": 0.9722222222222222,
+      "delta_test": 0.025000000000000022,
+      "fixed": 10,
+      "broken": 1,
+      "both_right": 340,
+      "both_wrong": 9,
+      "base_run": "20261102T110028_db7503dd",
+      "best_run": "20261102T110038_f16fd1c3"
+    },
+    {
+      "seed": 105,
+      "base_val": 0.9527777777777777,
+      "best_val": 0.9777777777777777,
+      "delta_val": 0.025000000000000022,
+      "base_test": 0.9527777777777777,
+      "best_test": 0.9722222222222222,
+      "delta_test": 0.019444444444444486,
+      "fixed": 9,
+      "broken": 2,
+      "both_right": 341,
+      "both_wrong": 8,
+      "base_run": "20261102T110048_716439ef",
+      "best_run": "20261102T110057_61fd224e"
+    }
+  ],
+  "audit": {
+    "formal_runs": 57,
+    "states": {
+      "completed": 37,
+      "pruned": 20
+    },
+    "seed0_predictions_byte_equal": true,
+    "seed0_history_metrics_exactly_equal": true,
+    "seed0_history_including_time_byte_equal": false,
+    "timing_note": "Actual wall-clock epoch times differ; never fabricated to satisfy byte equality.",
+    "base_seed1_predictions_differ_from_seed0": true,
+    "metrics_recomputed_from_files": true,
+    "trials": 40,
+    "search_sessions": [
+      {
+        "started_at": "2026-11-02T10:58:10.281456+00:00",
+        "commit": "977394c1a975104145e18c8c3ab0508e5beefeb4",
+        "before": 0,
+        "planned_trials_this_session": 10,
+        "sampler_rng_restored": false,
+        "after": 10,
+        "ended_at": "2026-11-02T10:58:25.121168+00:00"
+      },
+      {
+        "started_at": "2026-11-02T10:58:32.398954+00:00",
+        "commit": "977394c1a975104145e18c8c3ab0508e5beefeb4",
+        "before": 10,
+        "planned_trials_this_session": 30,
+        "sampler_rng_restored": false,
+        "after": 40,
+        "ended_at": "2026-11-02T10:59:14.987224+00:00"
+      }
+    ],
+    "final_runs": 10,
+    "final_selection_unchanged": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "criterion": "maximum last-epoch val_acc among COMPLETE; test not read",
+  "trial_number": 27,
+  "val_acc": 0.9805555555555555,
+  "source_commit": "977394c1a975104145e18c8c3ab0508e5beefeb4",
+  "best_config_sha256": "78ee3de667f78ab1833002443a462fd497e2483f377d9b7309a59a0336ef7b03",
+  "search_trials": 40
+}

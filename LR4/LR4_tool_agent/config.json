@@ -1,0 +1,13 @@
+{
+  "benchmark": "v1.2.2",
+  "suite": "workspace",
+  "base_url": "http://127.0.0.1:8024",
+  "model": "Qwen3-4B-Instruct-2507-Q4_K_M",
+  "temperature": 0,
+  "seed": 42,
+  "context": 16384,
+  "max_tokens": 1024,
+  "max_calls": 15,
+  "max_tools": 15,
+  "max_plan_steps": 8
+}

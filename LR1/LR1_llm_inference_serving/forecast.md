@@ -1,0 +1,3 @@
+# Forecast before formal measurements
+
+With Vulkan GPU offload, TTFT should increase with prompt length. Prefill throughput may fall at long lengths because attention has more prior positions to process. Identical cached prompts should reduce TTFT. Predict TPOT of 15–50 ms at one slot, above the illustrative weight-only lower bound of about 10 ms at 256 GB/s. Predict higher aggregate throughput with batching and worse individual latency. Expect 1 and 2 clients to meet the interactive targets and 4 clients to approach or exceed one threshold. Targets fixed before measurement: p90 TTFT ≤ 2 s, median TPOT ≤ 100 ms. Goodput counts individual requests meeting both thresholds. All limits and measurements apply only to this machine and workload.
